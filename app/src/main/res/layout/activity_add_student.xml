@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/white"
+        tools:context=".AddStudent">
+
+        <EditText
+            android:id="@+id/sName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Student Name"
+            android:background="@drawable/bg_text_input"
+            android:layout_marginTop="150dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="16sp"
+            android:padding="6dp"
+
+            />
+        <EditText
+            android:id="@+id/fName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Father Name"
+            android:background="@drawable/bg_text_input"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="16sp"
+            android:padding="6dp"
+
+            />
+        <EditText
+            android:id="@+id/sNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Phone Number"
+            android:background="@drawable/bg_text_input"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="16sp"
+            android:padding="6dp"
+
+            />
+        <EditText
+            android:id="@+id/sEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Email"
+            android:background="@drawable/bg_text_input"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="16sp"
+            android:padding="6dp"
+
+            />
+        <EditText
+            android:id="@+id/sCgpa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter CGPA"
+            android:background="@drawable/bg_text_input"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="16sp"
+            android:padding="6dp"
+            />
+
+        <Button
+            android:id="@+id/btnAddStudent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Student"
+            android:backgroundTint="@color/teal_700"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="100dp"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:onClick="btnSubmit"
+            />
+
+    </LinearLayout>
+</ScrollView>

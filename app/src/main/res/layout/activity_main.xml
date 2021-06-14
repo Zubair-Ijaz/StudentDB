@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/teal_200"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Management System"
+        android:layout_marginTop="50dp"
+        android:textSize="30dp"
+        android:background="@color/teal_700"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        />
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Student"
+        android:backgroundTint="@color/teal_700"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="100dp"
+        android:textSize="18dp"
+        android:elevation="3dp"
+        android:textAllCaps="false"
+        />
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Student"
+        android:backgroundTint="@color/teal_700"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:textSize="18dp"
+        android:elevation="3dp"
+        android:textAllCaps="false"
+        android:onClick="btnUpdate"
+        />
+    <Button
+        android:id="@+id/btnShow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show All Student"
+        android:backgroundTint="@color/teal_700"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:textSize="18dp"
+        android:elevation="3dp"
+        android:textAllCaps="false"
+        />
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Student"
+        android:backgroundTint="@color/teal_700"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:textSize="18dp"
+        android:elevation="3dp"
+        android:textAllCaps="false"
+        android:onClick="btnDeleteData"
+        />
+
+
+
+</LinearLayout>
